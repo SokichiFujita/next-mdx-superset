@@ -1,8 +1,8 @@
 # next-mdx-superset
 
-How do you manage [MDX](https://mdxjs.com) which is extension of markdown in your [Next.js](https://nextjs.org) application?
+How do you manage [MDX](https://mdxjs.com) in your [Next.js](https://nextjs.org) application?
 
-This boilerplate enable you to use two most major MDX libraries for Next.js in an Next.js app. This is also an example to apply [TailwindCSS](https://tailwindcss.com) to both libraries.
+This boilerplate enables you to use two most major MDX libraries for Next.js in a Next.js app. This is also an example to apply [TailwindCSS](https://tailwindcss.com) to both libraries.
 
 ## Libraries
 
