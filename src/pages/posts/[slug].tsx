@@ -76,7 +76,6 @@ export const getStaticProps = async (
       remarkPlugins: [remarkGfm],
     },
   });
-  //console.log(content, content2, data2);
   return {
     props: {
       content: mdxSource,
