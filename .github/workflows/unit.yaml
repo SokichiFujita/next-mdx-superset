@@ -2,8 +2,6 @@ name: unit test
 
 on:
   push:
-    branches:
-    - main
 
 jobs:
   e2e-tests:
@@ -15,4 +13,5 @@ jobs:
       - uses: actions/setup-node@v1
 
       - name: Install dependencies and run tests
-        run: npm install && npm run test:unit
+        run: npm install
+        run: npm run test:unit
