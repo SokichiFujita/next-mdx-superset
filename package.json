@@ -11,7 +11,7 @@
     "start": "next start",
     "lint": "next lint",
     "setup:e2e": "npx playwright install",
-    "test:unit": "jest --watch",
+    "test:unit": "jest",
     "test:e2e": "playwright test"
   },
   "dependencies": {
