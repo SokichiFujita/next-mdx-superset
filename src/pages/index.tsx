@@ -23,7 +23,7 @@ const Home: NextPage = ({
         <div key={data.slug}>
           <h2 className="text-2xl mb-4">
             <Link href={`/posts/${data.slug}`}>
-              <a>{data.title}</a>
+              <a data-testid="post_title">{data.title}</a>
             </Link>
           </h2>
         </div>
@@ -33,7 +33,7 @@ const Home: NextPage = ({
         <div key={data.slug}>
           <h2 className="text-2xl mb-4">
             <Link href={`/mdxs/${data.slug}`}>
-              <a>{data.title}</a>
+              <a data-testid="post_title">{data.title}</a>
             </Link>
           </h2>
         </div>
